@@ -17,15 +17,15 @@ public class Pw_Gshop extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
-        jTextField4 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        jTextField_TimeStamp = new javax.swing.JTextField();
+        jButton_Get = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jTextField5 = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         jTextField6 = new javax.swing.JTextField();
-        jButton2 = new javax.swing.JButton();
-        jTextField7 = new javax.swing.JTextField();
+        jButton_FindNext = new javax.swing.JButton();
+        jTextField_IDorName = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
         jCheckBox1 = new javax.swing.JCheckBox();
         jLabel5 = new javax.swing.JLabel();
@@ -33,16 +33,16 @@ public class Pw_Gshop extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jSpinner2 = new javax.swing.JSpinner();
         jLabel7 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        jComboBox_surface = new javax.swing.JComboBox<>();
         jLabel8 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jSpinner6 = new javax.swing.JSpinner();
-        jComboBox4 = new javax.swing.JComboBox<>();
+        jComboBox_type = new javax.swing.JComboBox<>();
         jTextField19 = new javax.swing.JTextField();
         jTextField20 = new javax.swing.JTextField();
         jTextField21 = new javax.swing.JTextField();
         jTextField22 = new javax.swing.JTextField();
-        jComboBox5 = new javax.swing.JComboBox<>();
+        jComboBox_status = new javax.swing.JComboBox<>();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
@@ -69,19 +69,19 @@ public class Pw_Gshop extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
+        jComboBox_sale_option = new javax.swing.JComboBox<>();
         jLabel13 = new javax.swing.JLabel();
         jScrollBar1 = new javax.swing.JScrollBar();
         jTextField17 = new javax.swing.JTextField();
         jTextField18 = new javax.swing.JTextField();
-        jComboBox3 = new javax.swing.JComboBox<>();
+        jComboBox_dbSource = new javax.swing.JComboBox<>();
         jButton3 = new javax.swing.JButton();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
-        jMenuItem2 = new javax.swing.JMenuItem();
+        jMenuItem_load = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         jMenuItem4 = new javax.swing.JMenuItem();
@@ -140,7 +140,7 @@ public class Pw_Gshop extends javax.swing.JFrame {
 
         jLabel1.setText("TimeStamp");
 
-        jButton1.setText("Get");
+        jButton_Get.setText("Get");
 
         jLabel2.setText("Categories:");
 
@@ -167,9 +167,9 @@ public class Pw_Gshop extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jTextField_TimeStamp, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jButton_Get, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel3)
@@ -182,8 +182,8 @@ public class Pw_Gshop extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1))
+                    .addComponent(jTextField_TimeStamp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton_Get))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
@@ -204,11 +204,11 @@ public class Pw_Gshop extends javax.swing.JFrame {
                 .addGap(14, 14, 14))
         );
 
-        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton2.setText("Find Next");
+        jButton_FindNext.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton_FindNext.setText("Find Next");
 
-        jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField7.setText("ID or Name");
+        jTextField_IDorName.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField_IDorName.setText("ID or Name");
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("ITEM"));
         jPanel2.setPreferredSize(new java.awt.Dimension(427, 565));
@@ -230,7 +230,7 @@ public class Pw_Gshop extends javax.swing.JFrame {
         jLabel7.setPreferredSize(new java.awt.Dimension(130, 130));
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(287, 43, 136, 136));
 
-        jPanel2.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(78, 186, 345, -1));
+        jPanel2.add(jComboBox_surface, new org.netbeans.lib.awtextra.AbsoluteConstraints(78, 186, 345, -1));
 
         jLabel8.setText("Surface:");
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(11, 189, -1, -1));
@@ -280,9 +280,9 @@ public class Pw_Gshop extends javax.swing.JFrame {
                     .addComponent(jTextField23)
                     .addComponent(jTextField20)
                     .addComponent(jTextField19)
-                    .addComponent(jComboBox4, 0, 107, Short.MAX_VALUE)
+                    .addComponent(jComboBox_type, 0, 107, Short.MAX_VALUE)
                     .addComponent(jSpinner6)
-                    .addComponent(jComboBox5, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jComboBox_status, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jTextField22)
                     .addComponent(jTextField21))
                 .addContainerGap())
@@ -295,7 +295,7 @@ public class Pw_Gshop extends javax.swing.JFrame {
                     .addComponent(jLabel17))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox_type, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel18))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -315,7 +315,7 @@ public class Pw_Gshop extends javax.swing.JFrame {
                     .addComponent(jLabel22))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox_status, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel23))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -388,7 +388,7 @@ public class Pw_Gshop extends javax.swing.JFrame {
         jLabel12.setText("Log Price");
         jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 590, -1, -1));
 
-        jPanel2.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(78, 222, -1, -1));
+        jPanel2.add(jComboBox_sale_option, new org.netbeans.lib.awtextra.AbsoluteConstraints(78, 222, -1, -1));
 
         jLabel13.setText("Sale Option");
         jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(11, 225, -1, -1));
@@ -398,7 +398,7 @@ public class Pw_Gshop extends javax.swing.JFrame {
         jPanel2.add(jTextField17, new org.netbeans.lib.awtextra.AbsoluteConstraints(79, 127, 200, -1));
         jPanel2.add(jTextField18, new org.netbeans.lib.awtextra.AbsoluteConstraints(79, 100, 200, -1));
 
-        jPanel2.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 72, 120, -1));
+        jPanel2.add(jComboBox_dbSource, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 72, 120, -1));
 
         jButton3.setText("Detect");
         jPanel2.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(209, 72, 70, -1));
@@ -414,8 +414,13 @@ public class Pw_Gshop extends javax.swing.JFrame {
 
         jMenu1.setText("File");
 
-        jMenuItem2.setText("Load DB");
-        jMenu1.add(jMenuItem2);
+        jMenuItem_load.setText("Load DB");
+        jMenuItem_load.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem_loadActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jMenuItem_load);
 
         jMenuItem3.setText("Save DB");
         jMenu1.add(jMenuItem3);
@@ -545,9 +550,9 @@ public class Pw_Gshop extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(jTextField7)
+                        .addComponent(jTextField_IDorName)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton2)))
+                        .addComponent(jButton_FindNext)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 435, Short.MAX_VALUE)
                 .addContainerGap())
@@ -561,8 +566,8 @@ public class Pw_Gshop extends javax.swing.JFrame {
                         .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 600, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton2, javax.swing.GroupLayout.Alignment.TRAILING)))
+                            .addComponent(jTextField_IDorName, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton_FindNext, javax.swing.GroupLayout.Alignment.TRAILING)))
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -570,6 +575,10 @@ public class Pw_Gshop extends javax.swing.JFrame {
         setSize(new java.awt.Dimension(824, 678));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jMenuItem_loadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem_loadActionPerformed
+
+    }//GEN-LAST:event_jMenuItem_loadActionPerformed
 
     public static void main(String args[]) {
         try {
@@ -583,15 +592,15 @@ public class Pw_Gshop extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton_FindNext;
+    private javax.swing.JButton jButton_Get;
     private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JComboBox<String> jComboBox4;
-    private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JComboBox<String> jComboBox_dbSource;
+    private javax.swing.JComboBox<String> jComboBox_sale_option;
+    private javax.swing.JComboBox<String> jComboBox_status;
+    private javax.swing.JComboBox<String> jComboBox_surface;
+    private javax.swing.JComboBox<String> jComboBox_type;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -631,7 +640,6 @@ public class Pw_Gshop extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem17;
     private javax.swing.JMenuItem jMenuItem18;
     private javax.swing.JMenuItem jMenuItem19;
-    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem20;
     private javax.swing.JMenuItem jMenuItem21;
     private javax.swing.JMenuItem jMenuItem22;
@@ -656,6 +664,7 @@ public class Pw_Gshop extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
+    private javax.swing.JMenuItem jMenuItem_load;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -686,11 +695,11 @@ public class Pw_Gshop extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField22;
     private javax.swing.JTextField jTextField23;
     private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
-    private javax.swing.JTextField jTextField7;
     private javax.swing.JTextField jTextField8;
     private javax.swing.JTextField jTextField9;
+    private javax.swing.JTextField jTextField_IDorName;
+    private javax.swing.JTextField jTextField_TimeStamp;
     // End of variables declaration//GEN-END:variables
 }
